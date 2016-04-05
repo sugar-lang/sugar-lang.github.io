@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.sugarj.baselang' version='1.2.0.201604050623'>
+    <update id='org.sugarj.baselang' range='[0.0.0,1.2.0.201604050623)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='org.sugarj.baselang'/>
+      <property name='maven-groupId' value='org.sugarj'/>
+      <property name='maven-artifactId' value='org.sugarj.baselang'/>
+      <property name='maven-version' value='1.2.0-SNAPSHOT'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.sugarj.baselang' version='1.2.0.201604050623'/>
+      <provided namespace='osgi.bundle' name='org.sugarj.baselang' version='1.2.0.201604050623'/>
+      <provided namespace='java.package' name='org.sugarj' version='0.0.0'/>
+      <provided namespace='java.package' name='org.sugarj.baselang' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='7'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.sugarj.common.cleardep' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.sugarj.stdlib' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.strategoxt.strj' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.spoofax.terms' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.spoofax.jsglr' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.sugarj.cleardep' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.sugarj.baselang' version='1.2.0.201604050623'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.sugarj.baselang;singleton:=true&#xA;Bundle-Version: 1.2.0.201604050623&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
